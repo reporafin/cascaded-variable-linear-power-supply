@@ -15,10 +15,12 @@ A hardware design and simulation repository for a custom variable linear AC-to-D
 
 ## Repository Structure
 
-├── simulation/ # LTspice simulation files and waveform plots
-├── hardware/ # KiCad schematics, PCB layout, and 3D models
-│ └── gerbers/ # Manufacturing files for PCB fabrication
+```text
+├── simulation/  # LTspice simulation files and waveform plots
+├── hardware/    # KiCad schematics, PCB layout, and 3D models
+│   └── gerbers/ # Manufacturing files for PCB fabrication
 └── README.md
+```
 
 ## Prerequisites
 
