@@ -2,7 +2,7 @@
 
 A hardware design and simulation repository for a custom variable linear AC-to-DC power supply. The circuit relies on the LM adjustable voltage regulators and the fixed voltage regulator to provide stable, clean power for lab and prototyping environments. 
 
-![3D Board Render](hardware/pcb_3d.png)
+![3D Board Render](Hardware/pcb_3d.png)
 
 ## Features
 * **Multi-Rail Output:** Provides four distinct power rails: an adjustable output (1.25V–21V) via an LM317, and three fixed digital logic rails (12V, 5V, 3.3V).
@@ -10,7 +10,7 @@ A hardware design and simulation repository for a custom variable linear AC-to-D
 * **Thermal & Layout Optimization:** Designed on a strictly single-layer PCB using a manual 1.0mm common ground bus to safely manage continuous current and heat.
 * **Validated Design:** Component tolerances, inductive flyback protection, and ripple voltages across the cascaded rails were verified in LTspice prior to physical layout.
 
-![LTspice Schematic](simulation/main_ckt.png)
+![LTspice Schematic](Simulation/main_ckt.png)
 
 ## Repository Structure
 
@@ -27,8 +27,8 @@ To view or modify the files in this project, you will need:
 
 ## Getting Started
 
-1. **Simulation:** Open `simulation/main_design.asc` in LTspice and click 'Run' to view the transient analysis and ripple voltages.
-2. **Hardware:** Open `hardware/vdc.kicad_pro` in KiCad to explore the schematic and PCB layout.
+1. **Simulation:** Open `Simulation/main_design.asc` in LTspice and click 'Run' to view the transient analysis and ripple voltages.
+2. **Hardware:** Open `Hardware/vdc.kicad_pro` in KiCad to explore the schematic and PCB layout.
 3. **Fabrication:** The production-ready Gerber files are located in `hardware/gerbers/`.
 
 ## License
