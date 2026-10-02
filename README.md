@@ -2,7 +2,7 @@
 
 A hardware design and simulation repository for a custom variable linear AC-to-DC power supply. The circuit relies on the LM adjustable voltage regulator and the fixed voltage regulators to provide stable, clean power for lab and prototyping environments. 
 
-![3D Board Render](Hardware/pcb_3d.png)
+![3D Board Render](Hardware_1.2/pcb_3d.png)
 
 ## Features
 * **Multi-Rail Output:** Provides four distinct power rails: an adjustable output (1.25V–21V) via an LM317, and three fixed digital logic rails (12V, 5V, 3.3V).
@@ -19,6 +19,8 @@ A hardware design and simulation repository for a custom variable linear AC-to-D
 ├── simulation/  # LTspice simulation files and waveform plots
 ├── hardware/    # KiCad schematics, PCB layout, and 3D models
 │   └── gerbers/ # Manufacturing files for PCB fabrication
+├── hardware_1.2/ # New KiCad schematics, PCB layout, and 3D models with some minor changes
+│   └── gerbers/ # Manufacturing files for New PCB fabrication
 └── README.md
 ```
 
@@ -31,7 +33,7 @@ To view or modify the files in this project, you will need:
 ## Getting Started
 
 1. **Simulation:** Open `Simulation/main_design.asc` in LTspice and click 'Run' to view the transient analysis and ripple voltages.
-2. **Hardware:** Open `Hardware/vdc.kicad_pro` in KiCad to explore the schematic and PCB layout.
+2. **Hardware:** Open `Hardware_1.2/vdc.kicad_pro` in KiCad to explore the schematic and PCB layout.
 3. **Fabrication:** The production-ready Gerber files are located in `hardware/gerbers/`.
 
 ## License
